@@ -1,5 +1,33 @@
 package com.example.mhjg43.listdemo
 
+/**
+ * created by Andy, 05/30/17
+ *
+ * *                #                                                   #
+ * #                       _oo0oo_                     #
+ * #                      o8888888o                    #
+ * #                      88" . "88                    #
+ * #                      (| -_- |)                    #
+ * #                      0\  =  /0                    #
+ * #                    ___/`---'\___                  #
+ * #                  .' \\|     |# '.                 #
+ * #                 / \\|||  :  |||# \                #
+ * #                / _||||| -:- |||||- \              #
+ * #               |   | \\\  -  #/ |   |              #
+ * #               | \_|  ''\---/''  |_/ |             #
+ * #               \  .-\__  '-'  ___/-. /             #
+ * #             ___'. .'  /--.--\  `. .'___           #
+ * #          ."" '<  `.___\_<|>_/___.' >' "".         #
+ * #         | | :  `- \`.;`\ _ /`;.`/ - ` : | |       #
+ * #         \  \ `_.   \_ __\ /__ _/   .-` /  /       #
+ * #     =====`-.____`.___ \_____/___.-`___.-'=====    #
+ * #                       `=---='                     #
+ * #     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   #
+ * #                                                   #
+ * #                  God Bless No Bug                 #
+ * #                                                   #
+ */
+
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,10 +36,6 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-
-/**
- * Created by mhjg43 on 5/31/2017.
- */
 
 class CustomAdapter(private val dataSet : ArrayList<Model>, internal var mContext: Context)
                 : ArrayAdapter<Model>(mContext,R.layout.row_item,dataSet), View.OnClickListener{
